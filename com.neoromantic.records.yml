@@ -1,0 +1,33 @@
+Categories:
+  - Internet
+  - Multimedia
+
+
+License: GPL-3.0-or-later
+
+AuthorName: Jane Duke
+AuthorEmail: janedukemusic@neo-romantic.org
+WebSite: https://neo-romantic.org
+SourceCode: https://github.com/cobop/Neo-Romantic_Records_Android_App
+IssueTracker: https://github.com/cobop/Neo-Romantic_Records_Android_App/issues
+
+AutoName: Neo-Romantic Records
+Summary: Official Android App to access https://www.neo-romantic.org
+Description: |-
+  The Official App of Neo-Romantic Records. It is a simple web browser that only accesses https://www.neo-romantic.org and its sub-domains. It is based on WebView Standard and coded in Java. The app offers informations about Neo-Romantic Records, Jane Duke, and direct streaming of the album The Origin Of Evil by Jane Duke for now.
+
+RepoType: git
+Repo: https://github.com/cobop/Neo-Romantic_Records_Android_App.git
+
+Builds:
+  - versionName: '1.1'
+    versionCode: 11
+    commit: v1.1
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.1'
+CurrentVersionCode: 11
